@@ -9,13 +9,16 @@ BeautifulSoup is a wonderfully robust library for parsing html, and navigating t
 
 It (roughly) works as follows:
 
-> document = dompy.Document(htmlString)
-> document.getElementsByClassName('td') #get all the TDs in the document
-> document.getElementById('foo').innerText #get the text in the foo element
+```
+document = dompy.Document(htmlString)
+document.getElementsByClassName('td') #get all the TDs in the document
+document.getElementById('foo').innerText #get the text in the foo element
+```
 
 BeautifulSoup is still used to parse the html document, but the Tags are then iterated over and converted to a Node class
 which aims to closely resemble those found in javascript. So, as you'd access the body's className or tagName just as you would in javascript, like:
 
-> document.body.className
-> document.getElementsByName('idk')[0].tagName #figure out what tag has been named so vaguely
-
+```
+document.body.className
+document.getElementsByName('idk')[0].tagName #figure out what tag has been named so vaguely
+```
