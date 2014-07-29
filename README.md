@@ -3,7 +3,7 @@ dompy
 
 Javascript DOM objects in python. Parse html like you would in the browser.
 
-The goal is to implement [XML Nodes](http://www.w3schools.com/dom/dom_nodes.asp) in Python.
+The goal is to implement [XML DOM Elements](http://www.w3schools.com/dom/dom_element.asp) in Python.
 
 BeautifulSoup is a wonderfully robust library for parsing html, and navigating the document tree. However, I found it unpleasent to work with. As someone who's used to manipulating DOM elements in javascript, I wanted the ability to do the same thing in python. 
 
